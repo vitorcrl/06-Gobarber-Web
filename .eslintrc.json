@@ -18,7 +18,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
+  "plugins": ["react", "react-hooks", "prettier", "@typescript-eslint"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -29,16 +29,21 @@
         "extensions": [".tsx"]
       }
     ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "react/react-in-jsx-scope": "off"
   },
-  "import/extensions": [
-    "error",
-    "ignorePackages",
-    {
-      "ts": "never",
-      "tsx": "never"
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
     }
-  ]
+  }
 }
