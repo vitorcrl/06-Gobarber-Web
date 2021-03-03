@@ -24,7 +24,8 @@
     "styled-components": "^5.2.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "webkit": "^0.0.0"
+    "webkit": "^0.0.0",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,6 +51,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/styled-components": "^5.1.7",
+    "@types/yup": "^0.29.11",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
     "eslint": "^7.20.0",
