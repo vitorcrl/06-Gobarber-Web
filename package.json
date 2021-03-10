@@ -14,6 +14,7 @@
     "@types/react-icons": "^3.0.0",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
+    "axios": "^0.21.1",
     "node": "^15.8.0",
     "node-modules": "^1.0.1",
     "polished": "^4.1.1",
