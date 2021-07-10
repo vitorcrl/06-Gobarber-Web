@@ -1,5 +1,10 @@
 **/*.js
-node_modules
+.node_modules
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/prop-types */
+*node_modules
 build
 /src/react-app-env.d.ts
 /src/reportWebVitals.ts
+
+
