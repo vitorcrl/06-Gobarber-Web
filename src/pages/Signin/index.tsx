@@ -51,7 +51,11 @@ const SignIn: React.FC = () => {
           formRef.current?.setErrors(errors);
         }
         // Disparada da Toasts Aquui
-        addToast();
+        addToast({
+          type: 'error',
+          title: 'Erro na autenticaçao',
+          description: 'Ocorreu um erro ao fazer login',
+        });
       }
     },
     [signIn, addToast],
