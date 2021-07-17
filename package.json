@@ -58,6 +58,7 @@
   "author": "Vitor Carlos <vitorcarlos1312@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.7",
     "@types/yup": "^0.29.11",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
