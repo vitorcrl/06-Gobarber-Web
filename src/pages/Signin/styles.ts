@@ -52,7 +52,7 @@ export const Content = styled.div`
     align-items: center;
 
     svg {
-      margin-right: 16px;
+      margin-right: 14px;
     }
     &:hover {
       color: ${shade(0.2, '#ff9000')};
